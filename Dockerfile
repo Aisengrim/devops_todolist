@@ -16,7 +16,7 @@ FROM python:${PYTHON_VERSION}-slim AS run
 WORKDIR /app
 ENV PYTHONUNBUFFERED=1
 
-COPY --from=base /app /usr/local
+COPY --from=base /app /usr/local/lib/pythonX/site-packages
 
 COPY . .
 
