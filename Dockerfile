@@ -7,7 +7,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 RUN pip install --upgrade pip && \
-    pip install --prefix=/app -r requirements.txt
+    pip install --prefix=/usr/local/lib/pythonX/site-packages -r requirements.txt
 
 
 
