@@ -21,7 +21,7 @@ docker run -d -p 8080:8080 --name todoapp aisengrim/todoapp:1.0.0
 Run container from local image:
 
 ```bash
-docker run -d -p 8080:8080 --name todoapp aisengrim/todoapp:1.0.0
+ocker run -d -p 8080:8080 --name todoapp todoapp:1.0.0
 ```
 
 
@@ -70,5 +70,4 @@ docker rmi todoapp:1.0.0
 ## FAQ
 
 - The application runs on **port 8080**
-- Database migrations run automatically when the container starts
 - Ensure port **8080** is free before running the container
