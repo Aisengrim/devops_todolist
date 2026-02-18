@@ -8,7 +8,7 @@ ENV PYTHONUNBUFFERED=1
 COPY requirements.txt .
 
 RUN pip install --upgrade pip && \
-    pip install --prefix=/usr/local -r requirements.txt
+    pip install -r requirements.txt
 
 
 
