@@ -3,7 +3,6 @@ ARG PYTHON_VERSION=3.8
 FROM python:${PYTHON_VERSION} AS base
 
 WORKDIR /app
-ENV PYTHONUNBUFFERED=1
 
 COPY requirements.txt .
 
